@@ -112,7 +112,7 @@ export default {
       this.loading = true;
       //fetching questions from api
       let response = await fetch(
-        "https://opentdb.com/api.php?amount=5&category=21&type=multiple"
+        "https://asencio.dk/quiz/example_question.json"
       );
       let index = 0; //To identify single answer
       let data = await response.json();
